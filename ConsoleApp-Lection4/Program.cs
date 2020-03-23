@@ -537,10 +537,10 @@ namespace ConsoleApp_Lection4
         {
             Console.WriteLine("you have {0} coints", ++coints);
         }
-       public static void RefVoid2(ref bool registered)
+        public static void RefVoid2(ref bool registered)
         {
             registered = !registered;
-            Console.WriteLine("Your registration is {0}", registered );
+            Console.WriteLine("Your registration is {0}", registered);
         }
 
     }
